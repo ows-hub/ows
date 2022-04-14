@@ -34,3 +34,32 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
+#     - name: Send Nodemailer
+#       # You may pin to the exact commit or the version.
+#       # uses: bingblue/send-nodemailer@e60538e768bb488336bda6613ed7aa83d0d2f1c6
+#       uses: bingblue/send-nodemailer@v1.0.8
+#       with:
+#         # is the hostname or IP address to connect to
+#         host: # optional, default is smtp.exmail.qq.com
+#         # is the port to connect to
+#         port: # optional, default is 465
+#         # is the use TLS
+#         secure: # optional, default is true
+#         # is the username
+#         user: # optional
+#         # is the password
+#         pass: # optional
+#         # The email address of the sender
+#         from: # optional, default is [滨清科技] <system@bingblue.com>
+#         # Comma separated list or an array of recipients email addresses
+#         to: # optional
+#         # The subject of the email
+#         subject: # optional, default is 来自Github Actions的自动发送
+#         # The plaintext version of the message as an Unicode string, Buffer, Stream or an attachment-like object ({path: ‘/var/data/…’})
+#         text: # optional
+#         # The HTML version of the message as an Unicode string, Buffer, Stream or an attachment-like object ({path: ‘http://…‘})
+#         html: # optional
+#         # Github env
+#         github: # optional
+#         # Job.status env
+#         success: # optional
